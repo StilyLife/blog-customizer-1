@@ -1,10 +1,8 @@
-import clsx from 'clsx';
-
-// Сообщаем вебпаку, что этот файл использует это изображение.
+import React from 'react';
 import plane from 'src/images/plane.png';
-import { Text } from 'components/text';
-
 import styles from './Article.module.scss';
+import { Text } from 'components/text';
+import clsx from 'clsx';
 
 export const Article = () => {
 	return (
